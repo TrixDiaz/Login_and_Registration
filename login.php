@@ -2,8 +2,8 @@
 require './partials/database.php';  // require will produce a fatal error (E_COMPILE_ERROR) and stop the script
 require './partials/functions.php'; // will only produce a warning (E_WARNING) and the script will continue
 include './partials/header.php';
+include './partials/styles/style.php';
 ?>
-<link rel="stylesheet" href="./css/style.css">
   <div class="container mt-5" align="center">
        <div class="form-group col-md-5" >
        <div class="card">
