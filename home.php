@@ -2,7 +2,7 @@
  require './partials/session_verify.php';
  include './partials/header.php';
 ?>
-
+<title>Home | Dashboard </title>
     <div class="container mt-5">
                 <div class="row">
                     <div align="start" class="col-md-6">
@@ -16,13 +16,14 @@
                             </button>
                             <ul class="dropdown-menu text-start text-uppercase w-50">
                             <li><h5 class="dropdown-header">Profile Settings</h5></li>
-                            <li><a class="dropdown-item text-center" href="#">Profile</a></li>
-                            <li><a class="dropdown-item text-center" href="#">Security</a></li>
+                            <li><a class="dropdown-item text-center" >Profile</a></li>
+                            <li><a class="dropdown-item text-center" data-bs-toggle="modal" data-bs-target="#myModal">Security</a></li>
                             <li><a class="dropdown-item text-center" href="logout.php">Logout</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
     </div>
-        
+
+    
 <?php include './partials/footer.php'; ?>

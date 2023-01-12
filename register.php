@@ -4,6 +4,7 @@ include './partials/functions.php'; // will only produce a warning (E_WARNING) a
 include './partials/header.php';
 include './partials/styles/style.php';
 ?>
+<title>SIGN UP | PAGE </title>
   <div class="container mt-5" align="center">
        <div class="form-group col-md-5" >
        <div class="card">
@@ -62,7 +63,7 @@ include './partials/styles/style.php';
                             <div class="col-sm-8">
                                 <div class="input-field">
                                     <input type="text" class="text-white text-capitalize form-control" id="name" name="name">
-                                    <label for="email" class="text-white h6">Email address</label>
+                                    <label for="username" class="text-white h6">Username</label>
                                 </div>
                             </div>
                         </div>  

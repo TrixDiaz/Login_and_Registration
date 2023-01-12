@@ -1,5 +1,5 @@
 <style>
-    body{
+body{
     background-image: url('img/bubble.jpg');
     background-repeat: no-repeat;
 }
@@ -14,5 +14,4 @@
 .link:hover{
     color:aliceblue;
 }
-
 </style>

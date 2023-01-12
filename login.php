@@ -4,6 +4,7 @@ require './partials/functions.php'; // will only produce a warning (E_WARNING) a
 include './partials/header.php';
 include './partials/styles/style.php';
 ?>
+<title>SIGN IN | PAGE</title>
   <div class="container mt-5" align="center">
        <div class="form-group col-md-5" >
        <div class="card">
@@ -25,7 +26,6 @@ include './partials/styles/style.php';
 
                             <div class="col-sm-8">
                                 <div class="input-field">
-                                    <input type="text" class="text-white text-capitalize form-control" id="id" name="id" hidden>
                                     <input type="text" class="text-white text-capitalize form-control" id="name" name="name" required>
                                     <label for="Username" class="text-white h6">Username</label>
                                 </div>
