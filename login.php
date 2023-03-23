@@ -1,5 +1,5 @@
 <?php 
-require './partials/database.php';  // require will produce a fatal error (E_COMPILE_ERROR) and stop the script
+                                     // require will produce a fatal error (E_COMPILE_ERROR) and stop the script
 require './partials/functions.php'; // will only produce a warning (E_WARNING) and the script will continue
 include './partials/header.php';
 include './partials/styles/style.php';
